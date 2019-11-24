@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jafra.com]" guice-stage="DEVELOPMENT">
+  <test name="Login Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="jafra.library.functions.CommonFunctions">
+        <methods>
+          <include name="openbrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jafra.library.functions.CommonFunctions -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Jafra.com] -->

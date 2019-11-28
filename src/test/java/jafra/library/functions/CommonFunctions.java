@@ -125,12 +125,12 @@ public class CommonFunctions {
 	{
 		if(ExcelText.equalsIgnoreCase(Webtext))
 		{
-			System.out.println("PASS");
+			System.out.println("Test compared pass");
 		}
 		
 		else
 		{
-			System.out.println("FAIL");
+			System.out.println("Test compared FAIL");
 		}
 		
 	}

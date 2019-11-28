@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-28T18:47:09Z" name="Jafra.com" finished-at="2019-11-28T18:47:44Z" duration-ms="35055">
+  <suite started-at="2019-11-28T19:38:15Z" name="Jafra.com" finished-at="2019-11-28T19:39:42Z" duration-ms="86534">
     <groups>
     </groups>
-    <test started-at="2019-11-28T18:47:09Z" name="Login Test" finished-at="2019-11-28T18:47:44Z" duration-ms="35055">
+    <test started-at="2019-11-28T19:38:15Z" name="Login Test" finished-at="2019-11-28T19:39:42Z" duration-ms="86534">
       <class name="jafra.library.functions.AllFunctions">
-        <test-method signature="OpenJafraWebsite()[pri:1, instance:jafra.library.functions.AllFunctions@77f1baf5]" started-at="2019-11-29T00:17:09Z" name="OpenJafraWebsite" finished-at="2019-11-29T00:17:39Z" duration-ms="30515" status="PASS">
+        <test-method signature="OpenJafraWebsite()[pri:1, instance:jafra.library.functions.AllFunctions@77f1baf5]" started-at="2019-11-29T01:08:15Z" name="OpenJafraWebsite" finished-at="2019-11-29T01:09:35Z" duration-ms="79836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenJafraWebsite -->
-        <test-method signature="GetUsaPhoneNumber()[pri:2, instance:jafra.library.functions.AllFunctions@77f1baf5]" started-at="2019-11-29T00:17:39Z" name="GetUsaPhoneNumber" finished-at="2019-11-29T00:17:44Z" duration-ms="4482" status="PASS">
+        <test-method signature="GetUsaPhoneNumber()[pri:2, instance:jafra.library.functions.AllFunctions@77f1baf5]" started-at="2019-11-29T01:09:35Z" name="GetUsaPhoneNumber" finished-at="2019-11-29T01:09:42Z" duration-ms="6653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUsaPhoneNumber -->

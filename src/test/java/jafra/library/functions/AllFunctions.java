@@ -36,7 +36,8 @@ public class AllFunctions {
 		obj.ScrollToElement(ChooseCountry.choosecountrypath);
 		String phonetext=obj.GetText(ChooseCountry.choosecountrypath);
 		obj.CompareText(phonetext, "(800) 551-2345");
-		
+		String randomnumber= obj.generateRandomNumber();
+		obj.takeScreenShot(randomnumber);
 	}
 	
 	

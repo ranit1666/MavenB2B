@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88675" started-at="2020-04-05T12:31:07Z" finished-at="2020-04-05T12:32:36Z">
+  <suite name="Default suite" duration-ms="63744" started-at="2020-04-05T13:55:34Z" finished-at="2020-04-05T13:56:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88675" started-at="2020-04-05T12:31:07Z" finished-at="2020-04-05T12:32:36Z">
+    <test name="Default test" duration-ms="63744" started-at="2020-04-05T13:55:34Z" finished-at="2020-04-05T13:56:38Z">
       <class name="jafra.library.functions.AllFunctions">
-        <test-method status="PASS" signature="OpenJafraWebsite()[pri:1, instance:jafra.library.functions.AllFunctions@cb5822]" name="OpenJafraWebsite" duration-ms="37534" started-at="2020-04-05T18:01:07Z" finished-at="2020-04-05T18:01:45Z">
+        <test-method status="PASS" signature="OpenJafraWebsite()[pri:1, instance:jafra.library.functions.AllFunctions@cb5822]" name="OpenJafraWebsite" duration-ms="21083" started-at="2020-04-05T19:25:34Z" finished-at="2020-04-05T19:25:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenJafraWebsite -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:jafra.library.functions.AllFunctions@cb5822]" name="tearDown" is-config="true" duration-ms="4155" started-at="2020-04-05T18:01:45Z" finished-at="2020-04-05T18:01:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jafra.library.functions.AllFunctions@cb5822]" name="tearDown" is-config="true" duration-ms="257" started-at="2020-04-05T19:25:56Z" finished-at="2020-04-05T19:25:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="GetUsaPhoneNumber()[pri:2, instance:jafra.library.functions.AllFunctions@cb5822]" name="GetUsaPhoneNumber" duration-ms="42771" started-at="2020-04-05T18:01:49Z" finished-at="2020-04-05T18:02:32Z">
+        <test-method status="PASS" signature="GetUsaPhoneNumber()[pri:2, instance:jafra.library.functions.AllFunctions@cb5822]" name="GetUsaPhoneNumber" duration-ms="38176" started-at="2020-04-05T19:25:56Z" finished-at="2020-04-05T19:26:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUsaPhoneNumber -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:jafra.library.functions.AllFunctions@cb5822]" name="tearDown" is-config="true" duration-ms="4161" started-at="2020-04-05T18:02:32Z" finished-at="2020-04-05T18:02:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jafra.library.functions.AllFunctions@cb5822]" name="tearDown" is-config="true" duration-ms="4129" started-at="2020-04-05T19:26:34Z" finished-at="2020-04-05T19:26:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

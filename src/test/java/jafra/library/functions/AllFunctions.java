@@ -4,15 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import elementPath.ChooseCountry;
 import elementPath.Home;
 import elementPath.JafrabizLogin;
 
-public class AllFunctions {
+public class AllFunctions extends CommonFunctions{
 
-	WebDriver driver;
+	//WebDriver driver;
 	CommonFunctions obj=new CommonFunctions();
 	
 	@Test(priority=1)
@@ -31,6 +32,7 @@ public class AllFunctions {
 	@Test(priority=2)
 	public void GetUsaPhoneNumber()
 	{
+		obj.openbrowser("chrome");
 		obj.ScrollToElement(Home.CHOOSECOUNTRY);
 		obj.ClickElement(Home.CHOOSECOUNTRY);
 		obj.ScrollToElement(ChooseCountry.choosecountrypath);
@@ -39,8 +41,6 @@ public class AllFunctions {
 		String randomnumber= obj.generateRandomNumber();
 		obj.takeScreenShot(randomnumber);
 	}
-	
-	
 	
 	
 	

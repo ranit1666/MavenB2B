@@ -23,11 +23,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class CommonFunctions {
-	WebDriver driver;
+	public static WebDriver driver;
 
 	// @Parameters("browser")
 	public  void openbrowser(String BrowserName)
@@ -177,4 +179,13 @@ public class CommonFunctions {
 
 	}
 
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.close();
+		
+		
+	}
+	
+	
 }

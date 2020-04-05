@@ -42,9 +42,12 @@ public class AllFunctions extends CommonFunctions{
 		obj.takeScreenShot(randomnumber);
 	}
 	
-	
-	
-	
+	@Test(priority=3)
+	public void demoMethod()
+	{
+		System.out.println("This is for testing");
+		
+	}
 	
 	
 	

@@ -5,8 +5,8 @@
     <classes>
       <class name="jafra.library.functions.AllFunctions">
         <methods>
+          <include name="demoMethod2"/>
           <include name="tearDown"/>
-          <include name="GetUsaPhoneNumber"/>
         </methods>
       </class> <!-- jafra.library.functions.AllFunctions -->
     </classes>

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ranit\AppData\Local\Temp\testng-eclipse--2044408685\testng-customsuite.xml</span>
+                    <span>C:\Users\ranit\AppData\Local\Temp\testng-eclipse-1090531857\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jafra.library.functions.AllFunctions" hash-for-method="OpenJafraWebsite">OpenJafraWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jafra.library.functions.AllFunctions" hash-for-method="demoMethod">demoMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jafra.library.functions.AllFunctions" hash-for-method="demoMethod2">demoMethod2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -142,12 +152,26 @@
                   <span class="method-name">OpenJafraWebsite</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoMethod">
+                  </a> <!-- demoMethod -->
+                  <span class="method-name">demoMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demoMethod2">
+                  </a> <!-- demoMethod2 -->
+                  <span class="method-name">demoMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ranit\AppData\Local\Temp\testng-eclipse--2044408685\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ranit\AppData\Local\Temp\testng-eclipse-1090531857\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,20 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'GetUsaPhoneNumber')
+data.setCell(0, 1, 'OpenJafraWebsite')
 data.setCell(0, 2, 'jafra.library.functions.AllFunctions')
-data.setCell(0, 3, 38176);
+data.setCell(0, 3, 25774);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'OpenJafraWebsite')
+data.setCell(1, 1, 'GetUsaPhoneNumber')
 data.setCell(1, 2, 'jafra.library.functions.AllFunctions')
-data.setCell(1, 3, 21083);
+data.setCell(1, 3, 22819);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'demoMethod')
+data.setCell(2, 2, 'jafra.library.functions.AllFunctions')
+data.setCell(2, 3, 18176);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'demoMethod2')
+data.setCell(3, 2, 'jafra.library.functions.AllFunctions')
+data.setCell(3, 3, 16775);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,15 +274,31 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21086 ms</span>
+                <span class="method-start">25780 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">GetUsaPhoneNumber</span>
-                <span class="method-start">21347 ms</span>
+                <span class="method-start">29948 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59526 ms</span>
+                <span class="method-start">52769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">demoMethod</span>
+                <span class="method-start">56931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">demoMethod2</span>
+                <span class="method-start">79532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96310 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

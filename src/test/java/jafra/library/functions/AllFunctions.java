@@ -45,12 +45,19 @@ public class AllFunctions extends CommonFunctions{
 	@Test(priority=3)
 	public void demoMethod()
 	{
+		obj.openbrowser("chrome");
 		System.out.println("This is for testing");
 		
 	}
 	
 	
-	
+	@Test(priority=4)
+	public void demoMethod2()
+	{
+		obj.openbrowser("chrome");
+		System.out.println("This is for testing from c drive");
+		
+	}
 	
 	
 	
